@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with custom camera controls.  The issue arises when attempting to change the camera type (front/rear) while recording a video.  After switching the camera, the video recording continues, but the resulting video file is corrupted or unplayable.  The Expo Camera API doesn't provide direct error handling for this specific scenario.
